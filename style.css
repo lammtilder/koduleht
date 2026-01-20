@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    padding: 10px;
+}
+
+header{
+    padding: 10px;
+}
+
+body{
+    margin: 0;
+}
+
+main{
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.gallery{
+    display: inline-block;
+    max-width: 600px;
+}
+
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:600px){
+    main, body{
+        width: 100%
+        }
+    }
+
+    
